@@ -1,3 +1,3 @@
-# card_design
+# Card Design
 
 A new Flutter project.
