@@ -9,7 +9,7 @@ class TitleCard extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.only(left: 16, right: 16, top: 8),
+          padding: EdgeInsets.zero,
           child: Align(
             alignment: Alignment.centerLeft,
             child: SizedBox(
@@ -53,7 +53,7 @@ class TitleCard extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 16, right: 16, top: 8),
+          padding: EdgeInsets.zero,
           child: Align(
             alignment: Alignment.centerLeft,
             child: SizedBox(
@@ -97,7 +97,7 @@ class TitleCard extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 16, right: 16, top: 8),
+          padding: EdgeInsets.zero,
           child: Align(
             alignment: Alignment.centerLeft,
             child: SizedBox(

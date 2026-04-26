@@ -22,20 +22,23 @@ class MainApp extends StatelessWidget {
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  CardDesign(),
-                  SizedBox(width: 5),
-                  FoodCard(),
-                  SizedBox(width: 5),
-                  LoremCard(),
-                  SizedBox(width: 5),
-                  AwanCard(),
-                  SizedBox(width: 5),
-                ],
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    CardDesign(),
+                    SizedBox(width: 5),
+                    FoodCard(),
+                    SizedBox(width: 5),
+                    LoremCard(),
+                    SizedBox(width: 5),
+                    AwanCard(),
+                    SizedBox(width: 5),
+                    TitleCard(),
+                  ],
+                ),
               ),
-              TitleCard(),
             ],
           ),
         ),
